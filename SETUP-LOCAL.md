@@ -52,3 +52,8 @@ POSTGRES_HOST='127.0.0.1' python generate_zava_postgres.py
 ### Access
 
 The database will be accessible at `127.0.0.1:5432` with the credentials specified [in this file](./data/database/README.md). The `db` host will be used for connections from within the dev container and MCP server.
+
+
+## Visual Studio Code Dev Container
+
+Run `> Dev Containers: Rebuild and Reopen in Container` from the command palette to start the Visual Studio Code dev container. This will set up a development environment with all necessary dependencies and configurations for the workshop.
