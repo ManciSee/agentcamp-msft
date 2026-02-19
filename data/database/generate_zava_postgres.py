@@ -65,7 +65,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # PostgreSQL connection configuration
 POSTGRES_CONFIG = {
-    'host': 'db',
+    'host': os.getenv('POSTGRES_HOST', 'db'),
     'port': 5432,
     'user': 'postgres',
     'password': 'P@ssw0rd!',
