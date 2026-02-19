@@ -8,7 +8,7 @@ services:
     image: pgvector/pgvector:pg17
     container_name: agentcamp-26-LAB512
     ports:
-      - "15432:5432"
+      - "5432:5432"
     environment:
       POSTGRES_DB: postgres
       POSTGRES_USER: postgres
