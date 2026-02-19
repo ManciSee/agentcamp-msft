@@ -9,6 +9,21 @@ Steps to set up the local environment for the Global AI AgentCamp workshop.
 - **Docker Compose**: Install Docker Compose to manage multi-container applications.
 - **Visual Studio Code**: Install VS Code for development and use the AI Toolkit extension.
 
+### Create a Virtual Environment
+Create a virtual environment to manage your Python dependencies:
+```bash
+python -m venv venv
+```
+Activate the virtual environment:
+- On Windows:
+```bash
+.\venv\Scripts\activate
+```
+- On macOS/Linux:
+```bash
+source venv/bin/activate
+```
+
 ### Install Python Dependencies
 
 Upgrade `pip` and `wheel` to ensure you have the latest versions:
