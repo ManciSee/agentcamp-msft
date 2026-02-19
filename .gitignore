@@ -424,3 +424,7 @@ site/
 # Application uploads
 uploads/
 
+###
+
+.python-version
+.venv/
