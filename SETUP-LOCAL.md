@@ -69,6 +69,19 @@ POSTGRES_HOST='127.0.0.1' python generate_zava_postgres.py
 The database will be accessible at `127.0.0.1:5432` with the credentials specified [in this file](./data/database/README.md). The `db` host will be used for connections from within the dev container and MCP server.
 
 
+### MCP Server
+
+To configure the MCP Server in Visual Studio Code, follow these steps:
+
+1. Open the **AI Toolkit** extension in VS Code.
+2. Navigate to **Agent Builder** → **Tool** → **+** → **MCP Server**.
+3. Click on **"Could not find one? Browse more MCP Server"**.
+4. Select **Manual**.
+5. This will open the `mcp.json` configuration file.
+6. Paste the content from the [`mcp.json`](./.vscode/mcp.json) file located in the `.vscode` folder.
+7. **Important**: Update the path to the `customer_sales.py` file to match your local environment's absolute path.
+8. Click **Start** to launch the MCP Server.
+
 ## Visual Studio Code Dev Container
 
 Run `> Dev Containers: Rebuild and Reopen in Container` from the command palette to start the Visual Studio Code dev container. This will set up a development environment with all necessary dependencies and configurations for the workshop.

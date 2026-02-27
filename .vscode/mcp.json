@@ -7,7 +7,10 @@
 				"${workspaceFolder}/src/python/mcp_server/customer_sales/customer_sales.py",
 				"--stdio",
 				"--RLS_USER_ID=00000000-0000-0000-0000-000000000000"
-			]
+			],
+			"env": {
+				"POSTGRES_URL": "postgresql://postgres:P%40ssw0rd%21@127.0.0.1:5432/zava"
+			}
 		}
 	},
 	"inputs": []
